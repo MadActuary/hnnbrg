@@ -1,13 +1,26 @@
-﻿body 
-{
+﻿body {
     background-color: lightblue;
-
+    
 }
 
 th {
     color: red;
 }
 
-h2 {
+h4 {
     color: blue;
+    text-align: center;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
