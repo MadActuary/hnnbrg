@@ -1,0 +1,28 @@
+﻿body {
+
+}
+
+.kryds-og-bolle {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 1000px;
+    height: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+td {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#kryds, #bolle {
+    display: none;
+}
