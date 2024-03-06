@@ -5,19 +5,28 @@
     <meta charset="utf-8" />
     <title>The is the new personal website</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/index.js"></script>
+
 </head>
 <body>
+    <div class="centered_menu">
+        <div id="menu">
+            <div class="aligned color" onclick="go('./krydsOgBolle.html')">
+                <p> Kryds & Bolle </p>
+            </div>
 
-    <div class="menu">
-            <iframe src="./menu.html" title="menu">
-            </iframe>
+            <div class="aligned">
+            </div>
+
+            <div class="aligned color" onclick="go('table.html')">
+                <p> Tabel </p>
+            </div>
+        </div>
     </div>
 
-        <br>
-
         <div class="content">
-                <iframe src="./tabel.html" title="content">
-                </iframe>
+            <iframe src="./blank.html" title="content" id="content">
+            </iframe>
         </div>
 
 </body>

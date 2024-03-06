@@ -4,12 +4,28 @@ html, body {
     overflow: hidden;
 }
 
-.menu iframe {
+
+.centered_menu {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+}
+
+.aligned {
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.color {
+    background-color: lightblue;
 }
 
 .content iframe {
