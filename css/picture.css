@@ -1,19 +1,30 @@
-﻿body {
+﻿
+body {
     background-color: #833022;
-    height: 100%;
-    
 }
 
 .centered {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
 }
 
 .picture{
     height: 700px;
-    padding: 10%;
-    
+    pointer-events: none; /* fjerne evne til at downloade*/
+}
+
+/* Blur */
+.blur figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.blur figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
 }
