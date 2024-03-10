@@ -1,0 +1,19 @@
+﻿body {
+    background-color: #833022;
+    height: 100%;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+.picture{
+    height: 700px;
+    padding: 10%;
+    
+}
