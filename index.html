@@ -6,36 +6,54 @@
     <title>The is the new personal website</title>
     <link rel="stylesheet" href="./css/index.css">
     <script type="text/javascript" src="./js/index.js"></script>
-
 </head>
 <body>
-    <div class="centered_menu">
-        <div id="menu">
-            <div class="aligned color" onclick="go('./krydsOgBolle.html')">
-                <p> Kryds & Bolle </p>
-            </div>
+    
+    <div class="topnav">
 
-            <div class="aligned">
-            </div>
+        <div class = "option-container">
+            <p class="option" onclick="go('./krydsOgBolle.html')">Kryds & Bolle</p>   
+            <div class="dropdown-options">
+                <div class="dropdown-option">
+                    <p class="option">MENU ITEM 1</p> 
+                </div>
+                <div class="dropdown-option">
+                    <p class="option" >MENU ITEM 2</p> 
+                </div>
 
-            <div class="aligned color" onclick="go('table.html')">
-                <p> Tabel </p>
             </div>
-
-            <div class="aligned">
-            </div>
-
-            <div class="aligned color" onclick="go('table.html')">
-                <p> Tabel </p>
-            </div>
-            
         </div>
+
+        <div class = "option-container">
+            <p class="option" onclick="go('table.html')">Tabel</p>  
+            <div class="dropdown-options">
+                <div class="dropdown-option">
+                    <p class="option" >EMPTY 1</p> 
+                </div>
+                <div class="dropdown-option">
+                    <p class="option" >EMPTY 2</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class = "option-container">
+            <p class="option" onclick="go('blank.html')">Blank</p>  
+            <div class="dropdown-options">
+                <div class="dropdown-option">
+                    <p class="option" >EMPTY 1</p> 
+                </div>
+                <div class="dropdown-option">
+                    <p class="option" >EMPTY 2</p> 
+                </div>
+            </div>
+        </div>
+
     </div>
 
-        <div class="content">
-            <iframe src="./blank.html" title="content" id="content">
-            </iframe>
-        </div>
+    <div class="content">
+        <iframe src="./blank.html" title="content" id="content">
+        </iframe>
+    </div>
 
 </body>
 </html>
