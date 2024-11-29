@@ -11,10 +11,13 @@ html {
 }
 
   body{
-    font-family: "Libre Franklin", sans-serif;
+    font-family: "Roboto Mono", monospace;
     font-size: 16px;
     font-weight: 100;
+    color: #B9BEC1;
     overflow-x:hidden; /*ellers overflow*/
+    /*background-color: #1E242C; */
+    background-image: linear-gradient(90deg, #1E242C, #4A4C4D);
   }
 
 .row{
@@ -24,6 +27,7 @@ html {
 .limited{
   max-width: 1024px;
   margin:auto;
+  margin-left: 75px;
   
 }
 
@@ -43,7 +47,7 @@ html {
 
 
 header{
-  background-color: blueviolet;
+  /*background-color: #B9BEC1;*/
 
 }
 header img{
@@ -154,7 +158,7 @@ main h1{
 }
 
 footer{
-  background-color: blueviolet;
+  /*background-color: #B9BEC1;*/
   font-size: 1.2 rem;
 }
 
