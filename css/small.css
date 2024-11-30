@@ -44,7 +44,14 @@ html {
   width: 50%;
 }
 
-
+.download-button{
+  display: inline-block;
+  color: #B9BEC1;
+  cursor: pointer;
+}
+.download-button:hover {
+  color: #FFFFFF;
+}
 
 header{
   /*background-color: #B9BEC1;*/
